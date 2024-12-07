@@ -56,7 +56,7 @@ import os
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],  # You can add global template directories here if needed
+        'DIRS': [BASE_DIR / 'menu_pricing/templates'],  # You can add global template directories here if needed
         'APP_DIRS': True,  # This allows Django to find templates inside app directories
         'OPTIONS': {
             'context_processors': [
